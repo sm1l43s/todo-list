@@ -1,0 +1,25 @@
+.item {
+    width: 95%;
+    height: auto;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.remove {
+    height: 25px;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10%;
+    font-size: 12px;
+}
+
+.closed {
+    text-decoration: line-through;
+}
